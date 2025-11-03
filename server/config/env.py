@@ -5,7 +5,7 @@ class ServiceEnvironment(Env):
     DEBUG: bool = False
     PRODUCTION: bool = False
     DJANGO_SECRET_KEY: str = "mapyeah_001"
-    DJANGO_ALLOWED_HOSTS: list =  ["127.0.0.1", "localhost","192.168.2.26","bi.fahua.vip"]
+    DJANGO_ALLOWED_HOSTS: list =  ["127.0.0.1", "localhost","192.168.2.26","bi.fahua.vip","001.frp.fahua.vip"]
     DB_ENGINE: str = "mysql"
     
     DB_NAME: str = "mygisbi"

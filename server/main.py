@@ -8,7 +8,7 @@ service = UtilMeta(
     name='blog',
     backend=django,
     asynchronous=True,
-    port=8080
+    port=8000
 )
 configure(service)
 # should import API after setup
@@ -20,6 +20,8 @@ from domain.bidata.api import MyGISBIAPI
 class RootAPI(api.API):
     article: ArticleAPI
     bidata: MyGISBIAPI
+
+
 
 
 app = service.application()

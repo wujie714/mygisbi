@@ -7,4 +7,6 @@ from domain.bidata.models import BIData
 class BIDataSchema(orm.Schema[BIData]):
     id: int
     author: UserSchema
+    type: str
+    memo: str
     content: str

@@ -10,18 +10,20 @@ class MyGISBIAPI(api.API):
         return await BIDataSchema.ainit(id)
 
     @api.post
-    async def create_bi_data(self, author_id: int, content: str) -> BIDataSchema:
+    async def create_bi_data(self, author_id: int, type: str, memo: str, content: str) -> BIDataSchema:
         # 检查用户是否存在
         user = await User.objects.aget(pk=author_id)
         # 创建新的BIData记录
-        bidata = await BIData.objects.acreate(author=user, content=content)
+        bidata = await BIData.objects.acreate(author=user, type=type, memo=memo, content=content)
         # 返回创建的记录
         return await BIDataSchema.ainit(bidata)
 
     @api.put
-    async def update_bi_data(self, id: int, content: str) -> BIDataSchema:
+    async def update_bi_data(self, id: int, type: str, memo: str, content: str) -> BIDataSchema:
         # 查找并更新记录
         bidata = await BIData.objects.aget(pk=id)
+        bidata.type = type
+        bidata.memo = memo
         bidata.content = content
         await bidata.asave()
         # 返回更新后的记录

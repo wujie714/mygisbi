@@ -13,21 +13,22 @@ def configure(service: UtilMeta):
     ))
     service.use(DjangoSettings(
         apps_package='domain',
-        secret_key='YOUR_SECRET_KEY'
+        secret_key='YOUR_SECRET_KEY',
+        allowed_hosts=env.DJANGO_ALLOWED_HOSTS,
     ))
     service.use(DatabaseConnections({
         
-        # 'default': Database(
-        #     name='db',
-        #     engine='sqlite3',
-        # ),
-        "default": Database(
-                    name=env.DB_NAME,
-                    engine=env.DB_ENGINE,
-                    host=env.DB_HOST,
-                    user=env.DB_USER,
-                    password=env.DB_PASSWORD,
-                    port=env.DB_PORT,
-                )
+        'default': Database(
+            name='db',
+            engine='sqlite3',
+        ),
+        # "default": Database(
+        #             name=env.DB_NAME,
+        #             engine=env.DB_ENGINE,
+        #             host=env.DB_HOST,
+        #             user=env.DB_USER,
+        #             password=env.DB_PASSWORD,
+        #             port=env.DB_PORT,
+        #         )
     }))
     service.setup()
