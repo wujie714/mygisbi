@@ -1,6 +1,7 @@
 
 一、下载项目
 >git clone https://github.com/wujie714/mygisbi.git
+
 二、安装依赖
 >pip install uv
 >cd mygisbi
