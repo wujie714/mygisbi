@@ -1,0 +1,35 @@
+2024-10-13 17:44:34.961 [I] [sub/root.go:142] start frpc service for config file [frpc.toml]
+2024-10-13 17:44:35.008 [I] [client/service.go:295] try to connect to server...
+2024-10-13 17:44:35.008 [I] [client/service.go:174] admin server listen on 127.0.0.1:57400
+2024-10-13 17:44:35.023 [I] [client/service.go:287] [c5ecfa27832f1b19] login to server success, get run id [c5ecfa27832f1b19]
+2024-10-13 17:44:35.023 [I] [proxy/proxy_manager.go:173] [c5ecfa27832f1b19] proxy added: [test001_3389 socks5 vr nas_https_proxy]
+2024-10-13 17:44:35.032 [I] [client/control.go:168] [c5ecfa27832f1b19] [test001_3389] start proxy success
+2024-10-13 17:44:35.032 [I] [client/control.go:168] [c5ecfa27832f1b19] [socks5] start proxy success
+2024-10-13 17:44:35.032 [I] [client/control.go:168] [c5ecfa27832f1b19] [vr] start proxy success
+2024-10-13 17:44:35.033 [I] [client/control.go:168] [c5ecfa27832f1b19] [nas_https_proxy] start proxy success
+2024-10-13 17:45:47.101 [I] [sub/root.go:142] start frpc service for config file [frpc.toml]
+2024-10-13 17:45:47.124 [I] [client/service.go:295] try to connect to server...
+2024-10-13 17:45:47.124 [I] [client/service.go:174] admin server listen on 127.0.0.1:57400
+2024-10-13 17:45:47.136 [I] [client/service.go:287] [aba1326b3d8f4cfe] login to server success, get run id [aba1326b3d8f4cfe]
+2024-10-13 17:45:47.136 [I] [proxy/proxy_manager.go:173] [aba1326b3d8f4cfe] proxy added: [test001_3389 socks5 vr nas_https_proxy]
+2024-10-13 17:45:47.143 [I] [client/control.go:168] [aba1326b3d8f4cfe] [socks5] start proxy success
+2024-10-13 17:45:47.143 [I] [client/control.go:168] [aba1326b3d8f4cfe] [vr] start proxy success
+2024-10-13 17:45:47.143 [I] [client/control.go:168] [aba1326b3d8f4cfe] [nas_https_proxy] start proxy success
+2024-10-13 17:45:47.143 [I] [client/control.go:168] [aba1326b3d8f4cfe] [test001_3389] start proxy success
+2024-10-13 17:45:59.611 [I] [sub/root.go:142] start frpc service for config file [frpc.toml]
+2024-10-13 17:45:59.681 [I] [client/service.go:295] try to connect to server...
+2024-10-13 17:45:59.681 [I] [client/service.go:174] admin server listen on 127.0.0.1:57400
+2024-10-13 17:45:59.695 [I] [client/service.go:287] [a6ae45c8aa59cc7c] login to server success, get run id [a6ae45c8aa59cc7c]
+2024-10-13 17:45:59.695 [I] [proxy/proxy_manager.go:173] [a6ae45c8aa59cc7c] proxy added: [test001_3389 socks5 vr nas_https_proxy]
+2024-10-13 17:45:59.701 [I] [client/control.go:168] [a6ae45c8aa59cc7c] [test001_3389] start proxy success
+2024-10-13 17:45:59.701 [I] [client/control.go:168] [a6ae45c8aa59cc7c] [socks5] start proxy success
+2024-10-13 17:45:59.701 [I] [client/control.go:168] [a6ae45c8aa59cc7c] [vr] start proxy success
+2024-10-13 17:45:59.701 [I] [client/control.go:168] [a6ae45c8aa59cc7c] [nas_https_proxy] start proxy success
+2024-10-13 17:46:50.498 [I] [sub/root.go:142] start frpc service for config file [frpc.toml]
+2024-10-13 17:46:50.512 [I] [client/service.go:295] try to connect to server...
+2024-10-13 17:46:50.536 [I] [client/service.go:287] [d6ebf2d135fc0e66] login to server success, get run id [d6ebf2d135fc0e66]
+2024-10-13 17:46:50.536 [I] [proxy/proxy_manager.go:173] [d6ebf2d135fc0e66] proxy added: [test001_3389 socks5 vr nas_https_proxy]
+2024-10-13 17:46:50.541 [I] [client/control.go:168] [d6ebf2d135fc0e66] [socks5] start proxy success
+2024-10-13 17:46:50.542 [I] [client/control.go:168] [d6ebf2d135fc0e66] [test001_3389] start proxy success
+2024-10-13 17:46:50.542 [I] [client/control.go:168] [d6ebf2d135fc0e66] [vr] start proxy success
+2024-10-13 17:46:50.542 [I] [client/control.go:168] [d6ebf2d135fc0e66] [nas_https_proxy] start proxy success

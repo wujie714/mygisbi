@@ -1,0 +1,26 @@
+[project]
+name = "mygisxbikini"
+version = "0.1.0"
+description = "Xbikini for NMC websites and apps"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "asyncpg>=0.30.0",
+    "bs4>=0.0.2",
+    "lxml>=5.4.0",
+    "psycopg2>=2.9.10",
+    "pytz>=2025.2",
+    "requests>=2.32.3",
+    "utilmeta>=2.8.0",
+    "uvicorn>=0.34.3",
+    "scipy==1.16.1",
+    "redis",
+    "loguru",
+    "numpy",
+    "dify_client==0.1.10",
+    "minio==7.2.16",
+    "diskcache>=5.6.3",
+    "pymysql>=1.1.2",
+    "mysqlclient>=2.2.7",
+    "aiomysql>=0.3.2",
+]

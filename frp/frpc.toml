@@ -1,0 +1,18 @@
+serverAddr = "frp.fahua.vip"
+serverPort = 15443
+auth.method = "token"
+auth.token = "mapyeah"
+
+webServer.addr = "127.0.0.1"
+webServer.port = 57400
+transport.tls.enable = false
+
+
+
+[[proxies]]
+name = "001"
+type = "http"
+localIP = "127.0.0.1"
+localPort = 8000
+customDomains = ["001.frp.fahua.vip"]
+

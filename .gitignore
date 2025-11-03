@@ -1,0 +1,16 @@
+
+.venv/
+.vscode/
+.idea/
+logs/
+log/
+server/.cache/
+*/__pycache__
+__pycache__/
+server/server_utilmeta_ops
+server/uvicorn.sh
+server.zip
+server/cache/
+*.val
+cache.db-wal
+clear_cache.log

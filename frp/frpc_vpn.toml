@@ -1,0 +1,20 @@
+serverAddr = "vpn.jiudingmap.com"
+serverPort = 15443
+auth.method = "token"
+auth.token = "mapyeah"
+
+
+
+webServer.addr = "127.0.0.1"
+webServer.port = 57400
+transport.tls.enable = false
+
+
+[[proxies]]
+name = "plugin_socks5"
+type = "tcp"
+remotePort = 10809
+[proxies.plugin]
+type = "socks5"
+username = "wujie"
+password = "pwujie1234"
